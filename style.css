@@ -1,0 +1,184 @@
+body {
+       font-family: 'Poppins', sans-serif;
+       font-family: 'Roboto', sans-serif;
+}
+ .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: ;
+        padding: 10px 20px;
+ }
+
+ .logo {
+        max-width: 150px;
+        /* Adjust the max-width as needed */
+ }
+
+ ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+ }
+
+ li {
+        margin-right: 20px;
+        color: red;
+        cursor: pointer;
+ }
+
+ li:hover {
+        text-decoration: underline;
+ }
+ 
+ /* first-section */
+
+ .main-container{
+       background-image: url(/img/gr4.png);
+       display: flex;
+       gap: 100px;
+       align-items: center;
+       margin-top: 20px;
+       
+
+ }
+ .phone{
+       height: 500px;
+       width: 700px;
+ }
+ .title{
+       font-size: 50px;
+       color: white;
+       margin: 20px;
+ }
+ .des{
+       color: white;
+       margin: 20px;
+ }
+ .btn{
+       width: 150px;
+       height: 50px;
+       border: none;
+       margin: 20px;
+       border-radius: 100px;
+ }
+ .btn:hover{
+       background-color: cyan;
+ }
+ .card{
+      
+       height: 300px;
+       width: 300px;
+       box-shadow: 5px 20px 20px;
+       
+      
+      
+      
+      
+     
+ }
+ .card:hover{
+      transform: scale(0.9);
+ }
+ .title-2{
+       padding: 20px;
+       margin-top: 30px;
+       color: darkorchid;
+       /* margin-top: 50px; */
+ }
+ .description{
+       padding: 20px;
+       margin-bottom: 20px;
+ }
+ .main-card{
+       display: flex;
+       justify-content: space-around;
+
+ }
+ .icon{
+      width: 20px;
+      height: 20px;
+      margin-left:  20px;
+ }
+ .title-3{
+      text-align: center;
+      font-size: 50px;
+     
+ }
+ .vartual{
+     /* display: grid;
+     grid-template-columns: repeat(4, 1fr); */
+     display: flex;
+      justify-content: center;
+ }
+ .img-1{
+      width: 200px;
+ }
+ .phone{
+      align-items: center;
+      justify-content: center;
+     
+      
+ }
+ .img-1:hover {
+       transform: scale(0.9);
+ }
+ .name{
+      align-items: center;
+      justify-content: center;
+      margin-left:40px ;
+ }
+ .mobile-brand{
+      display: flex;
+      background-color: white;
+      align-items: center;
+      gap: 10px;
+      justify-content: space-around;
+ }
+ .iphone{
+      width: 200px;
+ }
+ .glaxy{
+      color: rgb(68, 0, 255);
+      font-size: 50px;
+      box-shadow: 20px;
+      
+ }
+ .btn-2{
+      width: 150px;
+      height: 50px;
+      border: none;
+      margin: 20px;
+      border-radius: 100px;
+      font-size: 20px;
+      background-color: rgb(0, 255, 195);
+
+ }
+
+ .importanr{
+      display: flex;
+      justify-content: space-around;
+ }
+ .connect{
+      text-align: center;
+      font-size: 40px;
+      color: brown;
+     
+ }
+ .donation{
+      margin-top: 10px;
+
+ }
+ .watch:hover{
+      transform: scale(0.9);
+
+ }
+ .laptop{
+      width: 500px;
+ }
+
+ .laptop-collection{
+      margin-top: 30px;
+ }
+ 
